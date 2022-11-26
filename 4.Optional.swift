@@ -27,3 +27,5 @@ var nothing:String? = "nothing";
 // 调用可选对象返回的结果也是一个可选对象
 var num = nothing?.count;
 print(num!)
+
+// Optional 是一个枚举，可以看看源代码的实现
